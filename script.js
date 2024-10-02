@@ -9,12 +9,12 @@ function makeChoice(choice) {
             <button onclick="makeChoice('voltar')">Voltar para a floresta</button>
         `;
     } else if (choice === 'voltar') {
-        storyElement.innerText = "Você decidiu voltar para casa. Fim da aventura!";
+        storyElement.innerText = "Você decidiu voltar para casa e para seu tédio eterno!";
         choicesElement.innerHTML = '';
     } else if (choice === 'seguir') {
-        storyElement.innerText = "Você encontra uma linda cabana. Você quer entrar ou voltar?";
+        storyElement.innerText = "Você encontra uma linda cabana com belas folhagens. Você quer entrar ou voltar?";
         choicesElement.innerHTML = `
-            <button onclick="makeChoice('entrar')">Entrar na cabana</button>
+            <button onclick="makeChoice('entrar')">Explorar dentro da cabana</button>
             <button onclick="makeChoice('voltar')">Voltar para o caminho</button>
         `;
     } else if (choice === 'entrar') {
