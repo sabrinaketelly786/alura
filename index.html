@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aventura em busca do tesouro</title>
+    <title>Catálogo kit de make</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Aventura em busca do tesouro</h1>
-        <p id="story">Você se encontra em uma floresta sombria. O que você quer fazer?</p>
-        <div id="choices">
-            <button onclick="makeChoice('explorar')">Explorar a floresta em busca de uma aventura </button>
-            <button onclick="makeChoice('voltar')">Voltar para casa e continuar entediado com os livros que leu mais de duas vezes</button>
-        </div>
+        <h1>Catálogo de Produtos</h1>
+        <div id="catalog" class="catalog"></div>
+        <h2>Carrinho</h2>
+        <div id="cart" class="cart"></div>
+        <button id="checkout">Finalizar Compra</button>
     </div>
     <script src="script.js"></script>
 </body>
